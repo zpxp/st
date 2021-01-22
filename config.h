@@ -5,12 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = {"JoyPixels:pixelsize=10:antialias=true:autohint=true",
-                        "siji:pixelsize=10:antialias=true:autohint=true",
-                        "FontAwesome5Free:style=Solid:pixelsize=10:antialias=true:autohint=true",
-                        "unifont:pixelsize=10:antialias=true:autohint=true",
-                        "monospace:pixelsize=10:antialias=true:autohint=true"};
+static char *font = "hack:size=12:antialias=true:autohint=true";
+static char *font2[] = {"JoyPixels:size=12:antialias=true:autohint=true",
+                        "siji:size=12:antialias=true:autohint=true",
+                        "FontAwesome5Free:style=Solid:size=12:antialias=true:autohint=true",
+                        "unifont:size=12:antialias=true:autohint=true",
+                        "monospace:size=12:antialias=true:autohint=true"};
 static int borderpx = 2;
 
 /*
